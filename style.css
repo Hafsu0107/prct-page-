@@ -1,0 +1,66 @@
+* {
+  padding: 0%;
+  margin: auto;
+  box-sizing: border-box;
+}
+.main-section {
+  background-image: url(https://codyhouse.co/demo-templates/mercurio/assets/img/intro-img-1.jpg);
+  background-size: cover;
+
+  clip-path: polygon(0 0, 100% 0%, 100% 93%, 0% 100%);
+}
+.art {
+  padding-top: 22%;
+  margin-left: 5%;
+}
+.one {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #fff;
+  margin-left: 18px;
+  line-height: 41px;
+}
+
+.art-heading {
+  text-transform: uppercase;
+  line-height: 94px;
+  font-family: "Playfair Display", Georgia, serif;
+  color: #fff;
+
+  font-weight: 500;
+  font-size: 78px;
+}
+.two {
+  color: #fff;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 28px;
+  font-size: 20px;
+  padding: 10px;
+  width: 50%;
+  margin-left: 5px;
+}
+.shop-now {
+  background-color: black;
+  color: #fff;
+  margin-top: 15px;
+  padding: 12px;
+  background-color: black;
+  color: #fff;
+  width: 13%;
+  border-color: #fff;
+  font-size: 20px;
+  margin-left: 7px;
+}
+
+@media screen and (max-width: 767px) {
+  .art-heading {
+    font-size: 46px;
+    line-height: 47px;
+  }
+  .two {
+    width: 64%;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 15px;
+  }
+}
